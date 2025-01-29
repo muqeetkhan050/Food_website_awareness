@@ -11,3 +11,14 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+
+
+
+.header-link:hover{  /* Changed from header-links to header-link */
+  color: #15986b;
+  transition: 0.3s;
+  cursor: pointer;
+  text-decoration: underline;
+  transform: scale(1.1);
+  display: inline-block;  /* This ensures transform only affects individual link */
+}
