@@ -1,0 +1,22 @@
+.scroll-container{
+    width:100%;
+    overflow:hidden
+}
+.scroll-wrapper{
+    display: flex;    /* Makes child elements display in a row by default */
+    gap:20px;         /* Adds 20px spacing between child elements */
+    padding:20px;     /* Adds 20px internal spacing around the content */
+}
+
+.scroll-wrapper:hover{
+    animation-play-state:paused
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
