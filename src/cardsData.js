@@ -16,22 +16,6 @@ export const cardsData = [
         title: 'Sustainability',
         description: 'Efforts to reduce waste',
         buttonText: 'Read more'
-    },
-    {
-        imageSrc: '/src/food4.jpg',
-        title: 'Disposal',
-        description: 'Throwing food in trash',
-        buttonText: 'Read more'
-    },{
-        imageSrc:'src/food5.jpg',
-        title:'Decay',
-        description:'Rotting or decomposing food',
-        buttonText:'Read more'
-    },{
-        imageSrc:'src/food6.jpg',
-        title:'Excess',
-        description:'Overproduction leading to waste',
-        buttonText:'Read more'
     }
 ]
 
