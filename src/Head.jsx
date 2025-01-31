@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Head() {
     return (
         <div className='container'>
@@ -11,7 +12,7 @@ function Head() {
 
                 </div>
                 <div className='col-md-6'>
-                    <img src='src/earth.png' alt='earth' style={{ width: '100%', height: 'auto', maxWidth: '600px', display: 'block', margin: '10px auto' }} />
+                    <img src='/earth.png' alt='earth' style={{ width: '100%', height: 'auto', maxWidth: '600px', display: 'block', margin: '10px auto' }} />
 
 
                 </div>

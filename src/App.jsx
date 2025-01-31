@@ -6,9 +6,10 @@ import Header from './Header.jsx'
 import WasteCalculator from './WasteCalculator.jsx'
 import Question from './Question.jsx'
 import Footer from './Footer.jsx'
+
 function App() {
   return (
-    <>
+    <> 
       <Header />
       <Head />
       <WasteCalculator/>
@@ -16,7 +17,6 @@ function App() {
       <Question/>
       <Question/>
       <Footer/>
-     
     </>
   )
 }
